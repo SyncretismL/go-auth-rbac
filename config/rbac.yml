@@ -1,0 +1,23 @@
+client:
+  foo:
+    get:
+      allow: true
+  bar:
+    get:
+      allow: true
+  sigma:
+    get:
+      allow: false
+
+
+admin:
+  foo:
+    get:
+      allow: true
+  bar:
+    get:
+      allow: true
+  sigma:
+    get:
+      allow: true
+    
